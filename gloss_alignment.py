@@ -38,7 +38,7 @@ gloss2posevocab.sort()
 
 ### ENG -> GLOSS VOCAB
 eng2glossvocab = [] 
-with open('text2gloss/sample-corpus-asl-en.asl', encoding="utf8") as f:
+with open('sample-corpus-asl-en.asl', encoding="utf8") as f:
     for line in f:
         for word in line.split(" "): 
             word = word.strip()
